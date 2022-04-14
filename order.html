@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>order</title>
+  </head>
+  <body>
+    <a href="car.html">Гараж</a>
+    <main>
+      <h1>order a car</h1>
+      <form method="post" action="https://formspree.io/f/mvolwreg">
+        <label for="cliant name">Name:</label>
+        <input
+          id="cliant name"
+          type="text"
+          placeholder="Name"
+          name="cliant name"
+          required
+        />
+        <br />
+        <label>Gender</label>
+        <label> <input type="radio" name="gender" /> Male </label>
+        <label> <input type="radio" name="gender" /> Female </label>
+        <label> <input type="radio" name="gender" /> Other </label>
+        <br />
+        <label>
+          <br />
+          Email:
+          <input type="email" placeholder="Email" name="Email" required />
+          <br />
+        </label>
+        <br />
+        Select a time:
+        <input type="time" name="usr_time" />
+        <br />
+        <br />
+        Select a week:
+        <input type="week" name="year_week" />
+        <br />
+        <br />
+        Telephone:
+        <input type="tel" name="usrtel" />
+        <br />
+        <br />
+        <select name="cars">
+          <option value="volvo">Volvo</option>
+          <option value="saab">Saab</option>
+          <option value="fiat">Fiat</option>
+          <option value="BMW">BMW</option>
+          <option value="jaguar">jaguar</option>
+          <option value="ferrari">Ferrari</option>
+          <option value="mercedes">Mercedes</option>
+          <option value="audi">Audi</option>
+          <option value="peugeot">Peugeot</option>
+          <option value="toyota">Toyota</option>
+          <option value="volkswagen">Volkswagen</option>
+          <option value="ford">Ford</option>
+        </select>
+        <br />
+        <br />
+        Color cars:
+        <input type="color" name="favcolor" value="#ff0000" />
+        <br />
+        <br />
+        <input type="submit" />
+        <br />
+      </form>
+    </main>
+  </body>
+</html>
